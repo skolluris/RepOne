@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Tinygif Examples</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.0.0/dist/phaser.min.js"></script>
+    <script src="./tinygif.js"></script>
+    <script src="./canvas.js"></script>
+  </head>
+  <body>
+    <h1>Tinygif - Record a Canvas</h1>
+    <p>Fast and efficient animated gif creator in EcmaScript.</p>
+    <p><a href="https://github.com/jeffrafter/tinygif/">Get the source</a> and start animating today!</p>
+    <button id="snapshot">Snapshot</button>
+    <button id="record">Record</button>
+    <p id="status">
+      <p id="recording_status">&nbsp;</p>
+      <p id="rendering_status">&nbsp;</p>
+      <p id="complete_status">&nbsp;</p>
+    </p>
+    <div id="sample_canvas">
+    </div>
+    <style>
+      #processing_status, #recording_status, #rendering_status, #complete_status {
+        font-family: Courier, mono;
+        font-size: 1.2rem;
+        background: #ccc;
+        padding: 1rem;
+      }
+    </style>
+  </body>
+</html>
